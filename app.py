@@ -1420,7 +1420,7 @@ def course_registration():
         }
         
         return render_template(
-            'course_registration.html',
+            'Course_Registration.html',
             user=sid,
             user_name=student_row['Name'],
             student_info=student_info,
